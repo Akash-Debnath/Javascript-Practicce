@@ -17,6 +17,12 @@ const { name, age, family : {father, brother} } = akash;
 // console.log(brother);
 
 
+
+
+
+
+
+
 //### Array of Object convert to JSON   ###
 
 const genuity = [
@@ -65,6 +71,12 @@ var behaviour = genuity.filter(function(item){      //filter
 // console.log(behaviour);
 
 
+
+
+
+
+
+
 // ###  Arrow function   ###
 function addNumbers(x, y, z)        //regular function
 {
@@ -80,10 +92,21 @@ var addNumbers = (x,y,z) => x+y+z;
 // console.log(addNumbers(20,20,20));
 
 
-// variable concatenation
+
+
+
+
+// ###  variable concatenation
 var fName = 'Akash', mName = 'Chandra', lName = 'Debnath';
 
-let fullName = 'My Name is - '+fName+' '+mName+' '+lName;
-    fullName = `My name is - ${fName} ${mName} ${lName}`;
+// let fullName = 'My Name is - '+fName+' '+mName+' '+lName;
+//     fullName = `My name is - ${fName} ${mName} ${lName}`;
     
-console.log(fullName);
+// console.log(fullName);
+
+
+
+
+
+
+
